@@ -1,9 +1,11 @@
-
+const { default: Home } = require("./pages/Home");
 
 function App() {
+
   return (
     <div className="App">
-      <div>salut</div>
+      <h2>sqoualala!!</h2>
+      <Home/>
     </div>
   );
 }
